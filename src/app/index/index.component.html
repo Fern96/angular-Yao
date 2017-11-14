@@ -1,0 +1,59 @@
+<!--header部分-->
+<header class="header ">
+  <div class="com_wrap clearfix">
+    <div class="ui_logo">
+      <a href="#">
+        <img src="/assets/ui-logo.png">
+      </a>
+    </div>
+    <nav class="ui_menu clearfix">
+      <ul class="ui_nav clearfix">
+        <li>
+          <a [routerLink]="['/home']">首页</a>
+        </li>
+        <li>
+          <a [routerLink]="['/resume']">简历</a>
+        </li>
+        <li>
+          <a [routerLink]="['/interest']">兴趣</a>
+        </li>
+        <li>
+          <a [routerLink]="['/family']">家庭</a>
+        </li>
+        <li>
+          <a [routerLink]="['/study']">学习</a>
+        </li>
+        <li>
+          <a [routerLink]="['/photos']">相片集</a>
+        </li>
+        <li>
+          <a [routerLink]="['/works']">作品集</a>
+        </li>
+      </ul>
+      <ul class="ui_social">
+        <li>
+          <a href="https://www.github.com/yaojiafeng" target="_blank">github</a>
+        </li>
+        <li>
+          <a href="https://weibo.com/3134256603/profile?topnav=1&wvr=6" target="_blank">新浪微博</a>
+        </li>
+        <li>
+          <a href="#">QQ邮箱</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!--header结束-->
+<!--内容部分-->
+<div class="banner">
+  <router-outlet></router-outlet>
+</div>
+<!--内容结束-->
+
+<!--footer部分-->
+<footer class="footer">
+  <p>
+    <a href="#">姚家锋</a>
+    <br>copyright © yao jiafeng. all rights reserved</p>
+</footer>

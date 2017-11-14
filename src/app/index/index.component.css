@@ -1,0 +1,56 @@
+/*header部分*/
+.header{
+    width: 100%;
+    height: 113px;
+    background: #000;
+    color: #fff;
+    line-height: 113px;
+    position: relative; 
+    z-index: 5 !important;
+    box-shadow: 0 5px 20px rgba(0, 0,0, 3);
+}
+.ui_logo{
+    float: left;
+}
+.ui_menu{
+    float: right;
+}
+.ui_menu li{
+    float: left;
+    margin: 0 16px;
+}
+.ui_menu a{
+    color: #fff;
+    font-size: 15px;
+}
+.ui_menu a:hover{
+    color: #eb7532;
+}
+.ui_nav{
+    float: left;
+
+}
+.ui_social{
+    float: left;
+}
+/*banner部分*/
+.banner{
+    background: palegoldenrod;
+    width: 100%;
+    height: 1000px;
+}
+
+
+/*footer部分*/
+.footer{
+    width: 100%;
+    height: 150px;
+    background: #e2dede;
+    position: relative;
+    top: 0;
+}
+.footer p{
+    padding-top: 60px;
+    text-align: center;
+    font-size: 20px;
+}
