@@ -11,6 +11,7 @@ import { InterestComponent } from './interest/interest.component';
 import { FamilyComponent } from './family/family.component';
 import { PhotosComponent } from './photos/photos.component';
 import { WorksComponent } from './works/works.component';
+import { TestComponent } from './test/test.component';
 const routes:Routes=[
   {path:'',redirectTo:'./home',pathMatch:'full'},
   {path:'home',component:HomeComponent},
@@ -33,7 +34,8 @@ const routes:Routes=[
     InterestComponent,
     FamilyComponent,
     PhotosComponent,
-    WorksComponent
+    WorksComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
