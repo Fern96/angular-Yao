@@ -10,10 +10,9 @@ import { StudyComponent } from './study/study.component';
 import { InterestComponent } from './interest/interest.component';
 import { FamilyComponent } from './family/family.component';
 import { PhotosComponent } from './photos/photos.component';
-import { WorksComponent } from './works/works.component';
-import { TestComponent } from './test/test.component';
+import { WorksComponent } from './works/works.component'
 const routes:Routes=[
-  {path:'',redirectTo:'./home',pathMatch:'full'},
+  {path:'',redirectTo:'/home',pathMatch:'full'},
   {path:'home',component:HomeComponent},
   {path:'resume',component:ResumeComponent},
   {path:'interest',component:InterestComponent},
@@ -34,8 +33,7 @@ const routes:Routes=[
     InterestComponent,
     FamilyComponent,
     PhotosComponent,
-    WorksComponent,
-    TestComponent
+    WorksComponent
   ],
   imports: [
     BrowserModule,

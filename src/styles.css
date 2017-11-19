@@ -42,8 +42,9 @@ a{
     float: right;
 }
 .com_wrap{
-   padding: 0 10%;
-    margin: 0 auto;
+    min-width: 1300px;
+    padding: 0 140px;
+     margin: 0 auto;
 }
 .com_link a{
     color: #ffffff;
