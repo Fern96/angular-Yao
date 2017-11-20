@@ -1,3 +1,52 @@
-div{
-    height: 200px;
+.content{
+    padding: 5% 8% 15%;
+}
+.box_1{
+    margin-bottom: 40px;
+}
+.box_1 h1{
+    text-align: center;
+}
+.ui_tab{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.ui_tab li{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 -1px;
+    white-space: nowrap;
+}
+.ui_tab a{
+    box-sizing: border-box;
+    border-bottom:2px solid #e8e7e5;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 15px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+/*图片内容区*/
+.photos .items_box>ul>li.narrow{
+    width: 30%
+}
+.photos .items_box >ul >li{
+    float: left;
+    height: 350px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.com_img{
+    background: url("/assets/lee1.jpg") no-repeat;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+   
 }

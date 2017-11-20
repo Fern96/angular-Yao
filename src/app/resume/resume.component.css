@@ -1,0 +1,38 @@
+.resume_box{
+   padding-top:30px;   
+}
+.left_area{
+    background: #e8e8e8;
+    width: 338px;
+margin-bottom: 20px;
+}
+.left_area{
+    text-align: center;
+}
+.left_area_box{
+    padding-bottom: 31px;
+}
+.left_area img{
+    display:inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    overflow: hidden;
+    margin-top: 61px;
+}
+.contact_box{
+    padding-top: 66px;
+    margin: 0 10%;
+    border-bottom: black solid 1px;
+    padding-bottom: 43px;
+}
+.icon{
+    background:url("/assets/icon.png") left no-repeat;
+    padding-left: 40px;
+}
+.icon_item{
+    margin-bottom: 28px;
+}
+.right_area{
+    background: burlywood;
+}

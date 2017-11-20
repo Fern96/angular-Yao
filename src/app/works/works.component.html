@@ -1,3 +1,29 @@
-<p>
-  works works!
-</p>
+<div class="user_box">
+  <div class="user_header">
+    <h3 class="user_title">用户列表</h3>
+  </div>
+
+  <!-- /.box-header -->
+
+  <div class="user_body">
+    <table align="center">
+        <tr class="user_trT">
+          <th style="width:200px">排名</th>
+          <th style="width:200px">用户名</th>
+          <th style="width:200px">车型</th>
+          <th style="width: 200px">价钱(万)</th>
+          <th style="width: 200px">评价</th>
+        </tr>
+      <tr class="user_tr" *ngFor="let userlist of userList;let i =index;">
+        <td style="width:100px">{{i+1}}</td>
+        <td style="width:200px"><a href="#">{{userlist.userName}}</a></td>
+        <td style="width:200px">{{userlist.carType}}</td>
+        <td style="width:200px">{{userlist.carPrice}}</td>
+        <td style="width:200px">
+        </td>
+    </table>
+  </div>
+  <!-- /.box-body -->
+
+</div>
+<!-- /.box -->
