@@ -42,9 +42,9 @@ a{
     float: right;
 }
 .com_wrap{
-    min-width: 1300px;
-    padding: 0 140px;
+    padding: 0 10%;
      margin: 0 auto;
+  min-width: 1000px;
 }
 .com_width{
     min-width: 1000px;
@@ -54,6 +54,6 @@ a{
 .com_link a{
     color: #ffffff;
     font-size: 15px;
-    font-weight: 500px;
+    /*font-weight: 500px;*/
     text-transform: uppercase;
 }
